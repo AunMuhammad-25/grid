@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    place-content: center;
+    gap: 55px;
+
+}
+.box img{
+    width: 350px;
+    height: 250px;
+    transition: all 0.8s ease;
+    border-radius: 60px;
+    margin-top: 30px;
+    margin-left:15px ;
+}
+.box img:hover{
+    transform: scale(1.1);
+    
+}
